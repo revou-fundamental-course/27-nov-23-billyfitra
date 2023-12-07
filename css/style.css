@@ -1,0 +1,151 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  :root {
+    scroll-behavior: smooth;
+  }
+  
+  body {
+    margin: 0 30px;
+  }
+  
+  /* Tittle */
+  
+  .title {
+    text-align: center;
+    margin: 20px 0 10px 0;
+  }
+  
+  .subtitle {
+    text-align: center;
+    margin-bottom: 10px;
+  }
+  
+  /* Header & Nav */
+  
+  .head-nav {
+    padding: 10px 0;
+  }
+  
+  .triangle, .jajargenjang {
+    border: 1px solid black;
+    border-radius: 10px;
+  }
+  
+  .head-nav-triangle > a {
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  .head-nav-triangle > .triangle {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+  }
+  .head-nav-jajargenjang > a {
+    font-style: inherit;
+    text-decoration: none;
+    align-items: center;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 10px 0;
+    margin-bottom: 10px;
+  }
+  .head-nav-jajargenjang > .jajargenjang {
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: dodgerblue;
+  }
+  
+  
+  /* Main Content */
+  
+  .card {
+    border: 3px solid black;
+    padding: 0 0 10px ;
+    box-shadow: -2px 10px 0px -2px rgba(0,0,0,0.08);
+    margin-bottom: 20px;
+  }
+  
+  .card > div {
+    padding: 20px;
+  }
+  
+  .main-judul > h2 {
+    border: 3px solid #000000;
+    text-align: center;
+    background-color: dodgerblue;
+    color: white;
+    padding: 25px 0;
+  }
+  
+  .card > .img-triangle {
+    width: 300px;
+    padding: 10px 0;
+    display: block;
+    margin: auto;
+  }
+  
+  .card > .img-jajargenjang {
+    width: 300px;
+    padding: 10px 0;
+    display: block;
+    margin: auto;
+  }
+  
+  .rumus {
+    text-align: center;
+    padding: 10px 0;
+  }
+  
+  .form-hitung > h2 {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+  
+  .form-hitung > form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  form > input {
+    padding: 8px 5px;
+    border-radius: 6px;
+    width: 100%;
+    border: 2px solid #e1e3ef;
+  }
+  
+  form > .btn-hitung {
+    padding: 7px 9px;
+    background-color: dodgerblue;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 6px;
+    margin-bottom: 20px;
+  }
+  
+  .form-hitung > .btn-reset {
+    padding: 7px 9px;
+    background-color: coral;
+    color: white;
+    border: 1px solid #000000;
+    border-radius: 6px;
+  }
+  
+  form > #luas-segitiga, #keliling-segitiga, #luas-jajargenjang, #keliling-jajargenjang {
+    margin-left: 0;
+    margin-right: auto;
+  }
